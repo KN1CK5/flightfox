@@ -5,4 +5,32 @@ html {
 
 body {
   border-top: 0.25em solid black;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7.3rem;
+  margin-top: 1.7rem;
+  align-items: center;
+}
+
+.logo {
+  max-width: 4.7rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.topMenu {
+  display: flex;
+}
+
+.topMenu li {
+  padding: 0 0 0 3.35rem;
+  font-size: 0.8rem;
+}
 }
