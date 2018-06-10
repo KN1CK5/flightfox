@@ -12,7 +12,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 0 7.3rem;
+  padding: 0 12.75rem;
   margin-top: 1.7rem;
   align-items: center;
 }
@@ -58,7 +58,7 @@ h1 {
   background-color: #df3f35;
   cursor: pointer;
   padding: 1rem 3.1rem;
-  margin: 3.5rem auto 0 auto;
+  margin: 3.5rem auto 5.5rem auto;
 }
 
 .start a {
@@ -69,4 +69,40 @@ h1 {
 
 .start:hover {
   background-color: #000000;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  margin: 0 auto;
+  max-width: 54.4rem;
+  justify-content: space-between;
+}
+
+.featuresBox {
+  display: flex;
+  width: 45%;
+  line-height: 1.5rem;
+}
+
+.iconBox {
+  max-width: 2.8rem;
+  max-height: 2.8rem;
+  padding: 0 1.7rem 0 0;
+}
+
+.iconBox svg {
+  width: 100%;
+  height: 100%;
+}
+
+.contentDescription {
+  font-size: 0.85rem;
+  max-width: 19rem;
+  line-height: 1.4rem;
+  padding: 1rem 0 2.6rem 0;
 }
