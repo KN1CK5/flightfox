@@ -74,6 +74,7 @@ h1 {
 .features {
   display: flex;
   flex-direction: column;
+  padding: 0 0 1.8rem 0;
 }
 
 .row {
@@ -106,4 +107,133 @@ h1 {
   max-width: 19rem;
   line-height: 1.4rem;
   padding: 1rem 0 0 0;
+}
+
+.blackBox {
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 25%,
+    #333333 25%,
+    #333333 100%
+  );
+  max-width: 100%;
+  height: 41.95rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.computerDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  max-height: 62.3%;
+}
+
+.blackBox img {
+  max-width: 58%;
+}
+
+.secondHeader {
+  text-align: center;
+  padding: 0 0 7.1rem 0;
+}
+
+.secondHeader h2 {
+  font-size: 1.78rem;
+  color: #e7e7e7;
+}
+
+.secondHeader h3 {
+  color: #999999;
+  padding: 1.8rem 0 0 0;
+}
+
+.how {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 7.2rem 0 3.8rem 0;
+}
+
+.bottomIcons {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 0 0 2.6rem 0;
+}
+
+.bottomHeaders {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0 1.4rem 0;
+  text-align: center;
+  max-width: 93%;
+}
+
+.bottomContent {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  max-width: 87%;
+  margin: 0 auto;
+  font-size: 0.95rem;
+}
+
+.bottomContent p {
+  max-width: 18.7rem;
+  line-height: 1.4rem;
+}
+.iconHousing {
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+}
+
+.iconHousing svg {
+  width: 100%;
+  height: 100%;
+}
+
+.footerDiv {
+  max-width: 23%;
+  margin: 0 auto;
+  padding: 7.7rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomMenu {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.8rem;
+}
+
+.footerDiv div {
+  margin: 0 auto;
+  padding: 0.7rem 0;
+}
+
+.footerDiv div img {
+  max-width: 1.8rem;
+}
+
+.footerBox {
+  display: flex;
+}
+
+.bottomSection {
+  background: #f7f7f7;
+}
+
+.line {
+  width: 1rem;
+  background: linear-gradient(
+    #f7f7f7 0%,
+    #f7f7f7 49%,
+    #ececec 49%,
+    #ececec 51%,
+    #f7f7f7 51%,
+    #f7f7f7 100%
+  );
 }
