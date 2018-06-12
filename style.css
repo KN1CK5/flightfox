@@ -142,13 +142,12 @@ h1 {
 
 .computerDiv {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  max-height: 62.3%;
+  max-width: 66%;
+  margin: 0 auto;
 }
 
 .blackBox img {
-  max-width: 58%;
+  width: 100%;
 }
 
 .secondHeader {
@@ -244,28 +243,12 @@ h1 {
   padding: 0.7rem 0;
 }
 
-.footerDiv div img {
-  max-width: 1.8rem;
-}
-
 .footerBox {
   display: flex;
 }
 
 .bottomSection {
   background: #f7f7f7;
-}
-
-.line {
-  width: 1rem;
-  background: linear-gradient(
-    #f7f7f7 0%,
-    #f7f7f7 49%,
-    #ececec 49%,
-    #ececec 51%,
-    #f7f7f7 51%,
-    #f7f7f7 100%
-  );
 }
 
 .bottomMenu a {
@@ -283,11 +266,31 @@ h1 {
   fill: #dddddd;
 }
 
-.footerBox div a:hover g * {
+.footerBox div a:hover svg * {
   fill: #e7422e;
   stroke: #e7422e;
 }
 
 .iconBox svg * {
   fill: #222222;
+}
+
+.footerIcon {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcon a svg {
+  width: 100%;
+  max-width: 2.1rem;
+  padding: 0 0.1rem;
+}
+
+.footerIcon:before,
+.footerIcon:after {
+  height: 2px;
+  width: 1rem;
+  background-color: #dddddd;
+  content: "";
+  display: block;
 }
